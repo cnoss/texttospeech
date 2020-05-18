@@ -44,4 +44,7 @@ Im Workshop werden verschiedene Arbeitsmaterialien genannt, die hier referenzier
 
 ## Weitere Quellen des Workshop
 Hier werden die Quellen zum Workshop aufgelistet. Vorheriges Sichten ist nicht nötig.
-TODO!
+
+* [CSS Speech](https://www.w3.org/TR/css-speech-1/)
+* [SSML](https://cloud.google.com/text-to-speech/docs/ssml?hl=de)
+* [Pronunciation](https://www.github.com/w3c/pronunciation)
