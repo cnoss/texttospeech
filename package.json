@@ -1,0 +1,22 @@
+{
+  "name": "texttospeech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrutz/texttospeech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astrutz/texttospeech/issues"
+  },
+  "homepage": "https://github.com/astrutz/texttospeech#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
