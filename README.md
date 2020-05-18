@@ -30,7 +30,7 @@ Dieses Repository wird Teil des Vortrags "Sprache im Web" und stellt den Rahmen 
 * Lädt unter `/aufgabe_1`, `/aufgabe_2` etc. die entsprechenden Seiten aus `/views`
 
 ### Frontend (/views)
-* Jede Seite besitzt entsprechende CSS- und JS-Files unter /assets
+* Jede Seite besitzt entsprechende CSS- und JS-Files unter `/assets`
 * Im Head sind sowohl diese als auch jQuery und Bootstrap referenziert
 * Das Design-Framework der Aufgabenseiten ist Bootstrap, Kenntnisse sind nicht erforderlich
 * Auf Wunsch kann hier ein eigenes Framework genutzt werden
