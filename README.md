@@ -24,12 +24,12 @@ Dieses Repository wird Teil des Vortrags "Sprache im Web" und stellt den Rahmen 
 * Nach Änderungen am Frontendcode: Fenster aktualisieren
 
 ## Aufbau
-### app.js
+### Backend (app.js)
 * Node.js Backend für simples Routing
 * Unter `const PORT` lässt sich der Port für Localhost ändern
-* Lädt unter /aufgabe_1, /aufgabe_2 etc. die entsprechenden Seiten aus /views
+* Lädt unter `/aufgabe_1`, `/aufgabe_2` etc. die entsprechenden Seiten aus `/views`
 
-### Frontend
+### Frontend (/views)
 * Jede Seite besitzt entsprechende CSS- und JS-Files unter /assets
 * Im Head sind sowohl diese als auch jQuery und Bootstrap referenziert
 * Das Design-Framework der Aufgabenseiten ist Bootstrap, Kenntnisse sind nicht erforderlich
@@ -44,3 +44,4 @@ Im Workshop werden verschiedene Arbeitsmaterialien genannt, die hier referenzier
 
 ## Weitere Quellen des Workshop
 Hier werden die Quellen zum Workshop aufgelistet. Vorheriges Sichten ist nicht nötig.
+TODO!
