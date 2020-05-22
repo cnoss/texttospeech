@@ -2,4 +2,15 @@
     margin-top: 40px;
 }
 
-/* TODO: Your code goes here! */
+.tts-controls{
+    margin-bottom: 40px;
+}
+
+#pause-button{
+    display: none;
+}
+
+.btn{
+    position: relative;
+    top: 40%;
+}

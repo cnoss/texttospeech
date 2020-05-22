@@ -28,7 +28,7 @@ function play() {
     if (synth.paused) {
         synth.resume();
     } else {
-        utt = new SpeechSynthesisUtterance(getTexts());
+        utt = new SpeechSynthesisUtterance(getContent());
         utt.pitch = parseFloat($('#speed').val());
         utt.voice = synth.getVoices()[$('#voiceSelect').val()];
         utt.volume = parseFloat($('#volume').val());
@@ -48,6 +48,13 @@ function stop() {
     $('#play-button').show();
 }
 
+function getContent() {
+    let content = getTexts();
+    content += getTable();
+    return content;
+}
+
+
 function getTexts() {
     let text = "";
     text += $('.tts-content').find('h1').text();
@@ -56,3 +63,20 @@ function getTexts() {
     return text;
 }
 
+function getTable() {
+    let tableText = "";
+    $('tbody').children().each(function () {
+        //<tr>
+        $(this).children().each(function () {
+            //<td>
+            if ($(this).attr('class') === 'semester-number') {
+                tableText += $(this).text() + ". Semester " + "  \n\n";
+            } else if ($(this).attr('class') === 'credit-points') {
+                tableText += $(this).text() + " Credit Points\n";
+            } else {
+                tableText += $(this).text() + ", ";
+            }
+        });
+    });
+    return tableText;
+}
