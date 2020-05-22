@@ -11,11 +11,11 @@ app.get('/aufgabe_1', function (req, res){
 });
 
 app.get('/aufgabe_2', function (req, res){
-    res.sendFile(path.join(__dirname + '/view/aufgabe_1.html'));
+    res.sendFile(path.join(__dirname + '/view/aufgabe_2.html'));
 });
 
 app.get('/aufgabe_3', function (req, res){
-    res.sendFile(path.join(__dirname + '/view/aufgabe_1.html'));
+    res.sendFile(path.join(__dirname + '/view/aufgabe_3.html'));
 });
 
 app.listen(3000, function () {
