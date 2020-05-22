@@ -18,17 +18,71 @@
 </head>
 
 <body class="container">
-    <h1>Medieninformatik Bachelor</h1>
-    <p>
-        Der Bachelor Studiengang Medieninformatik ist ein sogenanntes berufsqualifizierendes grundständiges Studium und
-        führt zum ersten Hochschulabschluss. Die Regelstudienzeit des anwendungsorientierten Informatikstudiengangs
-        beträgt 6 Semester. Die Einschreibung ist ausschließlich zum Wintersemester möglich.
-    </p>
-    <p>
-        Absolventen der Medieninformatik analysieren, realisieren, betreiben und evaluieren informationstechnische
-        Prozesse und Systeme zur Gestaltung, Produktion, Bearbeitung, Distribution und Nutzung medienbasierter
-        Informationen.
-    </p>
+    <div class="tts-controls">
+        <div class="row">
+            <div class="col-2">
+                <div class="form-group">
+                    <label for="volume">Lautstärke</label>
+                    <input type="number" value="1" placeholder="1" step="0.01" min="0" max="1" class="form-control"
+                        id="volume">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="form-group">
+                    <label for="speed">Geschwindigkeit</label>
+                    <input type="number" value="1" placeholder="1" step="0.1" min="0" max="10" class="form-control"
+                        id="speed">
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="form-group">
+                    <label for="voiceSelect">Stimme</label>
+                    <select class="form-control" id="voiceSelect">
+                    </select>
+                </div>
+            </div>
+            <div class="col-3">
+                <button onclick="play()" id="play-button" type="button" class="btn btn-primary">
+                    <svg id="play-icon" class="bi bi-play" width="1em" height="1em" viewBox="0 0 16 16"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <button onclick="pause()" id="pause-button" type="button" class="btn btn-primary">
+                    <svg id="pause-icon" class="bi bi-pause" width="1em" height="1em" viewBox="0 0 16 16"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M6 3.5a.5.5 0 01.5.5v8a.5.5 0 01-1 0V4a.5.5 0 01.5-.5zm4 0a.5.5 0 01.5.5v8a.5.5 0 01-1 0V4a.5.5 0 01.5-.5z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <button onclick="stop()" type="button" id="stop-button" class="btn btn-primary">
+                    <svg id="stop-icon" class="bi bi-stop" width="1em" height="1em" viewBox="0 0 16 16"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3.5 5A1.5 1.5 0 015 3.5h6A1.5 1.5 0 0112.5 5v6a1.5 1.5 0 01-1.5 1.5H5A1.5 1.5 0 013.5 11V5zM5 4.5a.5.5 0 00-.5.5v6a.5.5 0 00.5.5h6a.5.5 0 00.5-.5V5a.5.5 0 00-.5-.5H5z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="tts-content">
+        <h1>Medieninformatik Bachelor</h1>
+        <p>
+            Der Bachelor Studiengang Medieninformatik ist ein sogenanntes berufsqualifizierendes grundständiges Studium
+            und
+            führt zum ersten Hochschulabschluss. Die Regelstudienzeit des anwendungsorientierten Informatikstudiengangs
+            beträgt 6 Semester. Die Einschreibung ist ausschließlich zum Wintersemester möglich.
+        </p>
+        <p>
+            Absolventen der Medieninformatik analysieren, realisieren, betreiben und evaluieren informationstechnische
+            Prozesse und Systeme zur Gestaltung, Produktion, Bearbeitung, Distribution und Nutzung medienbasierter
+            Informationen.
+        </p>
+    </div>
 </body>
 
 </html>
