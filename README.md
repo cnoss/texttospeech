@@ -10,7 +10,7 @@ Dieses Repository wird Teil des Vortrags "Sprache im Web" und stellt den Rahmen 
 
 ## Benötigte Software
 * Passende IDE (WebStorm, PHPStorm, VS Code o.ä.)
-* Firefox (nur Firefox!)
+* **Firefox!**
 * Node.js: Version 12 oder höher
 * Winrar (zum Entpacken der Lösungen)
 
