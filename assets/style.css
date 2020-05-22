@@ -2,6 +2,10 @@
     margin-top: 40px;
 }
 
+.tts-controls{
+    margin-bottom: 40px;
+}
+
 #pause-button{
     display: none;
 }
