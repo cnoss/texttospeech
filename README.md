@@ -12,6 +12,7 @@ Dieses Repository wird Teil des Vortrags "Sprache im Web" und stellt den Rahmen 
 * Passende IDE (WebStorm, PHPStorm, VS Code o.ä.)
 * Einer der folgenden Browser: Chrome, Firefox, Edge, Safari, Opera
 * Node.js: Version 12 oder höher
+* Winrar (zum Entpacken der Lösungen)
 
 ## Installation
 * Repository klonen: `git clone`
