@@ -39,7 +39,7 @@ Dieses Repository wird Teil des Vortrags "Sprache im Web" und stellt den Rahmen 
 ## Materialien
 Im Workshop werden verschiedene Arbeitsmaterialien genannt, die hier referenziert werden. Vorheriges Sichten ist nicht nötig.
 
-* [Umfrage "Wozu TTS?"](https://pingo.coactum.de/752008)
+* [Pingo-Umfragen](https://pingo.coactum.de/752008)
 * [Mozilla web docs - Web Speech](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 * [Bootstrap Elemente](https://getbootstrap.com/docs/4.4/components/alerts/)
 * [jQuery](https://api.jquery.com/)
@@ -47,6 +47,8 @@ Im Workshop werden verschiedene Arbeitsmaterialien genannt, die hier referenzier
 ## Weitere Quellen des Workshop
 Hier werden die Quellen zum Workshop aufgelistet. Vorheriges Sichten ist nicht nötig.
 
-* [CSS Speech](https://www.w3.org/TR/css-speech-1/)
+* [Geschichte der Sprachsynthese](http://research.spa.aalto.fi/publications/theses/lemmetty_mst/chap2.html)
 * [SSML](https://cloud.google.com/text-to-speech/docs/ssml?hl=de)
+* [CSS Speech](https://www.w3.org/TR/css-speech-1/)
 * [Pronunciation](https://www.github.com/w3c/pronunciation)
+* [W3C Draft Prozcess](https://www.w3.org/WAI/EO/Drafts/w3c-process-old1.html)
