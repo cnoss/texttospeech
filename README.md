@@ -38,6 +38,7 @@ Dieses Repository wird Teil des Vortrags "Sprache im Web" und stellt den Rahmen 
 ## Materialien
 Im Workshop werden verschiedene Arbeitsmaterialien genannt, die hier referenziert werden. Vorheriges Sichten ist nicht nötig.
 
+* [Umfrage "Wozu TTS?"](https://pingo.coactum.de/752008)
 * [Mozilla CDN - Web Speech](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 * [Bootstrap Elemente](https://getbootstrap.com/docs/4.4/components/alerts/)
 * [jQuery](https://api.jquery.com/)
